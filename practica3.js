@@ -12,7 +12,7 @@ var game = function(){
 	Q.Sprite.extend("Mario",{
 		init: function(p) {
 			this._super(p, {
-				sheet: "marioR",
+				sheet: "mario",
 				x: 150,
 				y: 380
 			});
