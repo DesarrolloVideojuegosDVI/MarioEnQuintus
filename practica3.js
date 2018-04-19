@@ -11,11 +11,7 @@ var game = function(){
 	});
 	Q.Sprite.extend("Mario",{
 		init: function(p) {
-			this._super(p, {
-				sheet: "mario",
-				x: 150,
-				y: 380
-			});
+			this._super(p, { sheet: "mario", x: 150, y: 380 });
 			this.add("2d, platformerControls");
 		},
 		step: function(dt){
